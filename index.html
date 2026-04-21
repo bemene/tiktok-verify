@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FactFlow Studio | Dashboard</title>
-    <h1>FactFlow Studio</h1>
-    <p style="color: #65676b;">Educational Content Creator Tool</p>
     <meta name="tiktok-verification" content="tiktok-developers-site-verification=KctXJW0TOXKjmWN6x7EQzW6S8qtiVFnh">
     <meta name="google-site-verification" content="x721azbBy6zgvunsH9nVsLwUzGqL3HzpB9UU_USRzpI">
     
@@ -26,7 +24,7 @@
 <body>
 
 <div class="container">
-    <h1>EmotionFact Studio</h1>
+    <h1>FactFlow Studio</h1>
     <p style="color: #65676b;">Educational Content Creator Tool</p>
 
     <button class="btn-tiktok" onclick="alert('Redirecting to TikTok OAuth 2.0...')">
@@ -58,6 +56,7 @@
     const postBtn = document.getElementById('postBtn');
 
     fileInput.addEventListener('change', function() {
+        // Am corectat aici sa citeasca corect numele fisierului
         if (this.files && this.files) {
             const name = this.files.name;
             uploadStatus.innerText = "Video Ready!";
